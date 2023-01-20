@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    background-color: rgb(255, 170, 0);
+    background-color: rgb(255, 136, 0);
   }
   
   .logo {
@@ -30,7 +30,7 @@
   
   /* Style the header */
   header {
-    background-color: rgb(255, 222, 4);
+    background-color: rgb(4, 121, 255);
     padding: 30px;
     text-align: center;
     font-size: 35px;
