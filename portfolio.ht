@@ -1,108 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Mahaphan Portfolio</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+<html lang="en-US">
+  <title>My Website</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/mystyle.css" rel="stylesheet" />
+  <body>
 
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-/* Style the header */
-header {
-  background-color: mediumSeaGreen;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 20%;
-  height: 100%; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-
-article {
-  float: left;
-  padding: 20px;
-  width: 80%;
-  background-color: #f1f1f1;
-  height: 100%; /* only for demonstration, should be removed */
-}
-
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* Style the footer */
-footer {
-  background-color:MediumSeaGreen;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
-</head>
-<body>
     <header>
-        Mahaphan Portfolio
+      <h2>PORTFOLIO</h2>
+      <img src="img/dawn-nature-early-sunset-clouds-preview.jpg"width="hero-image">
+      
     </header>
-    <section>
-        <nav>
-            <a href="index.html"> New Portfolio</a><br>
-            <a href="index1.html" target="_blank">Old Portfolio</a>
-        </nav>
-        <article align ="center">
-            <img style="border-radius: 1000px;" src="images/myphoto.jpg" width="30%" hight="30%">
-            <h1> My name is "Dragon"</h1>
-            <h2>My name is "Dragon"</h2>
-            <h3>My name is "Dragon"</h3>
-            <h4>My name is "Dragon"</h4>
-            <h5>My name is "Dragon"</h5>
-            <h6>My name is "Dragon"</h6>
-            <p>My name is "Dragon"</p>
-            <a href="https://www.google.com">GOOGLE</a><br>
-            <a href="http://coding.pccpl.ac.th">CODING</a>
-        </article>
-    </section>
-    <footer>
-        86 M.4 Makhamsung Meaung district, Phitsanulok province.
-    </footer>
-
-
-</body>
-</html>
+    
+      <nav>
+        
+          <a href="index.html">HOME</a>
+          <a href="portfolio.html">PORTFOLIO</a>
+          <a href="contact.html">CONTACT</a>
+      </nav>
+      <article>
+        <h2>ข่าวประชาสัมพันธ์</h2>
+        <h3>ผลงานวิทยาศาสตร์</h3>
+        <img src="img/Slide2.jpg"width="device-width">
+        <h3>ผลงานนักเรียนระดับศึกษา ม.ปลาย</h3>
+        <img src="img/innoverse01.jpg"width="device-width">
+        <img src="img/innoverse02.jpg"width="device-width">
+        <p style="font-size: 20px; font-style; normal;">
+        <p style="text-indent; 20px;">This blog post is for parent not made for every one Ok?
+          We will Startttt Now
+          <a href="Readmore.html">Read more...           
