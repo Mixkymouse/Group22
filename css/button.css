@@ -71,7 +71,8 @@
     max-width:max-content;
     height: auto;
   }
-  <button class="btn-4">HOME</button>
+  <button class="btn-4">Read more...
+  </button>
             <style>
               .btn-4{
                   color: #fff;
@@ -100,4 +101,14 @@
                   z-index: -1;
                   transition: all 0.25s ease;
               }
+              <a href="Readmore.html">
           </style>
+</a>
+
+</p>
+</p>
+
+</article>
+
+</body>
+</html>
