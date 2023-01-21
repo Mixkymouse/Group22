@@ -1,0 +1,20 @@
+background: color none;
+color: #fff;
+border: circle rgb(4, 130, 255);
+text-align: center;
+text-decoration: none;
+display: inline-block;
+
+
+
+
+
+
+header {
+    background-image: url(/img/pccpl_area.jpg);
+    padding-top: 0px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    height: 50%;
+  }
