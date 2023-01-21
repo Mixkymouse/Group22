@@ -19,6 +19,6 @@
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
-      border-color: chocolate;
+      border-color: rgb(188, 162, 143);
     }
   }

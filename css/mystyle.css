@@ -8,14 +8,6 @@
   }
   
   /* Style the header */
-  header {
-    background-image: url(/img/header.jpg);
-    padding-top: 0px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
-    height: 50%;
-  }
   
   /* Container for flexboxes */
   section {
@@ -29,7 +21,7 @@
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    background: #ccc;
+    background: rgb(255, 255, 255);
     padding: 5px;
     
   }
@@ -51,31 +43,60 @@
   } 
   /*image end*/
   /* unvisited link */
-  a:link, a:visited {
-    background-color: rgb(247, 245, 245);
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+  a:link, a:visited <style>
+  button {
+    padding: : 20px 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: relative;
+    margin: 20px;
+    transition: all 0.25s ease;
   }
+.btn-4{
+    color: #fff;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, 0.5),
+    0px 0px 0px 0px rgba(39, 200, 255, 0.5);
+}
+.btn-4:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, 0.5)
+    , -10px 10px 25px 0px rgba(39, 200, 255, 0.5);
+}
+.btn-4:hover::after {
+    transform: rotate(150deg);
+}
+.btn-4::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background: color #ff3cac;;
+    background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
+    z-index: -1;
+    transition: all 0.25s ease;
+}
   
   a:hover, a:active {
-    background-color: green;
     color: white;
   }
 
   /* Style the list inside the menu */
   nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10;
   }
   
   /* Style the content */
   article {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
     background-color: #f1f1f1;
     padding: 10px;
   }
@@ -83,8 +104,8 @@
   /* Style the footer */
   footer {
     background-color: rgb(203, 154, 154);
-    padding: 10px;
-    text-align: left;
+    padding: 5px;
+    text-align: center;
     color: white;
   }
   #myBtn {
@@ -93,14 +114,14 @@
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     outline: none;
     background-color: red;
     color: white;
     cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
+    border-radius: 5px;
+    padding: 10px 20px;
   }
   
   #myBtn:hover {
