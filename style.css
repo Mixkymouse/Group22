@@ -51,3 +51,9 @@ header{
   border-radius: 4px;
   transition: ease .40s;
 }
+.navbara:hover{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+  border-radius: 4px;
+}
